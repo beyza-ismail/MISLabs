@@ -1,14 +1,14 @@
 class Exam {
-  final String id;
-  final String titleOfExam;
-  final DateTime dateOfExam;
-  final DateTime timeOfExam;
+  String id;
+  String title;
+  DateTime date;
+  DateTime time;
 
   Exam({
     required this.id,
-    required this.titleOfExam,
-    required this.dateOfExam,
-    required this.timeOfExam,
+    required this.title,
+    required this.date,
+    required this.time,
 
   });
 }

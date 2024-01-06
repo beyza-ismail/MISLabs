@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lab3/widgets/add_button.dart';
 import 'model/Exam.dart';
